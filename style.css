@@ -15,26 +15,69 @@ body {
  width: 60vh;
 
 }
+#logo {
+
+
+}
 
 #form {
-    background-color: azure;
+    display: flex;
+    flex-direction: column;
     position: relative;
     height: 100vh;
     width: 80vh;
 
 }
+#banner {
+    background-color: lightgrey;
+    display:flex;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+}
 
-#fields {
-    display: flex;
+form {
+    display:flex;
     flex-direction: column;
-    position: relative;
-
-
+    flex-wrap: wrap;
+    
 
 }
 
-#signup {
+#fields {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
+    height: 33vh;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
 
+#formfield {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+
+input {
+    width: 8rem;
+    height: 1.25rem;
+    line-height: 1rem;
+}
+
+#signup {
+    background-color: lightgray;
+    position: relative;
+    height: 33vh;
+    padding-left: 2rem;
+    padding-right: 5rem;
 
 }
