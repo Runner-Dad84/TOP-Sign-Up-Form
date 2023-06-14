@@ -76,16 +76,29 @@ form {
 
 input {
     width: 12rem;
-    height: 1.25rem;
+    height: 1.35rem;
     line-height: 1rem;
-    border-radius: 8px;
+    border-radius: 7px;
 }
 
 #signup {
+    display: flex;
+    flex-direction: column;
     background-color: lightgray;
     position: relative;
     height: 33vh;
     padding-left: 2rem;
     padding-right: 5rem;
+    padding-top: 2rem;
+    gap: 1rem;
 
+}
+
+button {
+    width: 12rem;
+    height: 3rem;
+    background-color: olive;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
 }
