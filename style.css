@@ -7,6 +7,8 @@ body {
 }
 
 #image {
+ display: flex;
+ flex-direction: column;
  background-image: url(images/tree.jpg);
  background-size:cover;
  background-repeat: no-repeat;
@@ -16,8 +18,11 @@ body {
 
 }
 #logo {
-
-
+    position: absolute;
+    background-color:rgb(3, 83, 18);
+    opacity: 0.8;
+    height: 12rem;
+    width:140vh;
 }
 
 #form {
