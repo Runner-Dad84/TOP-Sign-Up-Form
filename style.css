@@ -123,3 +123,13 @@ button {
     border-radius: 5px;
     box-shadow: 7px 12px 5px darkgray;
 }
+
+input:focus {
+    outline:  2px solid blue;
+    box-shadow: 8px 12px 5px darkgray;;
+}
+
+input[type="text"]:valid {
+    outline: 2px solid green;
+    background-color: lightblue;
+}
