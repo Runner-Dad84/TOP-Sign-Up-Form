@@ -9,16 +9,16 @@ body {
 }
 
 #image {
- display: flex;
- flex-direction: column;
- justify-content: center;
- flex-wrap: wrap;
- background-image: url(images/tree.jpg);
- background-size:cover;
- position: relative;
- height: 100vh;
- width: 60vh;
- min-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(images/tree.jpg);
+    background-size:cover;
+    position: relative;
+    height: 100vh;
+    width: 60vh;
+    min-width: auto;
 
 }
 #logo {
