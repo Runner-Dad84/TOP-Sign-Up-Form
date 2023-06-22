@@ -70,6 +70,7 @@ form {
 .rowfield {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
 
 #fields {
@@ -145,4 +146,9 @@ input:focus {
     input[type="tel"]:invalid)  {
     outline:  2px solid red;
     background: pink;
+}
+
+#notifyPassword, #notifyConfirm {
+    text-transform:none;
+    font-weight: bold;
 }
