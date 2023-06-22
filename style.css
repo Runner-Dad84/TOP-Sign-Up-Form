@@ -56,9 +56,13 @@ body {
     padding-left: 2rem;
     padding-right: 5rem;
     padding-top: 5rem;
+    padding-bottom: 2rem;
     justify-content: center;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.4rem;
     height: 33vh;
+
 }
 
 form {
@@ -116,6 +120,7 @@ input {
     padding-right: 5rem;
     padding-top: 2rem;
     gap: 1rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 button {
